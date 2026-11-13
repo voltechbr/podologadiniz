@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Luciana Diniz | Podóloga e Reflexoterapeuta</title>
+  <meta name="description" content="Luciana Diniz — Podóloga e Reflexoterapeuta. Experiência, atenção e cuidado especializado para a saúde e o bem-estar dos seus pés.">
+  <meta name="theme-color" content="#0a4a50">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Luciana Diniz | Podóloga e Reflexoterapeuta">
+  <meta property="og:description" content="O cuidado que seus pés merecem. Experiência, atenção e cuidado especializado para a saúde e o bem-estar dos seus pés.">
+  <meta property="og:image" content="assets/poster.jpg">
+
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <!-- Fontes: carregamento não bloqueante -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Manrope:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Manrope:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Manrope:wght@400;500;600;700&display=swap"></noscript>
+
+  <link rel="preload" as="image" href="assets/poster.jpg" fetchpriority="high">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="topo">
+    <div class="header__inner">
+      <a class="brand" href="#inicio" aria-label="Luciana Diniz — Podóloga e Reflexoterapeuta, ir ao início">
+        <img class="brand__logo" src="assets/logo-sm.png" srcset="assets/logo-sm.png 1x, assets/logo.png 2x" width="60" height="60" alt="">
+        <span class="brand__text">
+          <span class="brand__name">Luciana Diniz</span>
+          <span class="brand__role">Podóloga &amp; Reflexoterapeuta</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="menu" aria-label="Menu principal">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#inicio">Início</a></li>
+          <li><a class="nav__link" href="#sobre">Sobre</a></li>
+          <li><a class="nav__link" href="#tratamentos">Tratamentos</a></li>
+          <li><a class="nav__link" href="#contato">Contato</a></li>
+        </ul>
+        <a class="btn btn--solid nav__cta" href="#contato" data-whatsapp>Agendar atendimento</a>
+      </nav>
+
+      <button class="burger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+        <span class="burger__bar"></span>
+        <span class="burger__bar"></span>
+        <span class="burger__bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+      <div class="hero__media" aria-hidden="true">
+        <video class="hero__video" autoplay muted loop playsinline preload="auto"
+               poster="assets/poster.jpg" disablepictureinpicture tabindex="-1">
+          <source src="assets/hero.mp4" type="video/mp4">
+        </video>
+        <div class="hero__overlay"></div>
+      </div>
+
+      <div class="hero__inner">
+        <div class="hero__content">
+          <p class="hero__eyebrow">Luciana Diniz &middot; Podóloga &amp; Reflexoterapeuta</p>
+          <h1 class="hero__title" id="hero-titulo">O cuidado que seus <em>pés</em> merecem.</h1>
+          <p class="hero__subtitle">Experiência, atenção e cuidado especializado para a saúde e o bem-estar dos seus pés.</p>
+          <div class="hero__actions">
+            <a class="btn btn--light btn--lg" href="#contato" data-whatsapp>
+              <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12.04 2a9.9 9.9 0 0 0-8.5 14.95L2 22l5.2-1.5A9.9 9.9 0 1 0 12.04 2Zm0 1.8a8.1 8.1 0 1 1-4.3 14.97l-.3-.19-3.08.89.9-3-.2-.31A8.1 8.1 0 0 1 12.04 3.8Zm-3.2 3.9c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.07 3.3 5.1 4.5 2.52 1 3.03.8 3.58.75.55-.05 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.43-.07-.12-.27-.2-.57-.35-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.68.15-.2.3-.77.97-.95 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5-.9-.8-1.5-1.78-1.67-2.08-.18-.3-.02-.47.13-.62.14-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.65-.93-2.25-.24-.57-.49-.5-.68-.5Z"/></svg>
+              Agendar pelo WhatsApp
+            </a>
+            <a class="btn btn--ghost btn--lg" href="#sobre">Conheça meu trabalho</a>
+          </div>
+        </div>
+      </div>
+
+      <a class="hero__scroll" href="#sobre" aria-label="Rolar para baixo">
+        <span class="hero__scroll-line"></span>
+      </a>
+    </section>
+
+    <!-- ===== SOBRE ===== -->
+    <section class="sobre" id="sobre" aria-labelledby="sobre-titulo">
+      <div class="container sobre__grid">
+        <figure class="sobre__figure reveal">
+          <div class="sobre__frame">
+            <img class="sobre__photo" src="assets/luciana.jpg" alt="Luciana Diniz, Podóloga e Reflexoterapeuta" width="711" height="871" loading="lazy" onerror="this.remove()">
+          </div>
+          <figcaption class="sobre__badge">
+            <strong>+12</strong>
+            <span>anos de experiência</span>
+          </figcaption>
+        </figure>
+
+        <div class="sobre__content reveal" style="--d:120ms">
+          <p class="eyebrow">Sobre Luciana Diniz</p>
+          <h2 class="section-title" id="sobre-titulo">Cuidado que vem da <em>experiência.</em></h2>
+          <p class="sobre__text">Com mais de 12 anos de experiência, Luciana Diniz atua como Podóloga e Reflexoterapeuta, dedicando-se à saúde e ao bem-estar dos pés, com atenção individualizada e cuidado em cada detalhe.</p>
+          <p class="sobre__highlight"><span>+12 anos de experiência</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TRATAMENTOS ===== -->
+    <section class="tratamentos" id="tratamentos" aria-labelledby="trat-titulo">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2 class="section-title" id="trat-titulo">Tratamentos</h2>
+        </header>
+        <div class="cards">
+        <article class="card reveal" style="--d:0ms">
+          <div class="card__media">
+            <svg class="card__art" viewBox="0 0 400 260" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+              <defs>
+                <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e4f5f1"/><stop offset="1" stop-color="#7fd0c0"/></linearGradient>
+                <linearGradient id="h1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1f9e8a"/><stop offset="1" stop-color="#0a4a50"/></linearGradient>
+              </defs>
+              <rect width="400" height="260" fill="url(#g1)"/>
+              <circle cx="330" cy="40" r="90" fill="#fff" opacity=".35"/>
+              <circle cx="40" cy="240" r="110" fill="#fff" opacity=".3"/>
+              <g transform="translate(30 6)"><path d="M150 70c22-14 52-8 62 18 8 22 2 46 10 70 6 20 0 44-24 52-26 8-52-6-58-34-6-26 6-44 2-68-3-16 0-30 8-38Z" fill="url(#h1)" opacity=".92"/><g fill="url(#h1)" opacity=".92"><circle cx="232" cy="64" r="9"/><circle cx="250" cy="76" r="8"/><circle cx="264" cy="92" r="7"/><circle cx="212" cy="56" r="10"/></g></g><path d="M268 150c18 26 18 44 0 58-18-14-18-32 0-58Z" fill="#fff" opacity=".9"/><path d="M300 110c12 18 12 30 0 40-12-10-12-22 0-40Z" fill="#fff" opacity=".7"/>
+            </svg>
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Tratamento de Micose</h3>
+            <p class="card__text">Atendimento podológico voltado ao cuidado das unhas e da pele dos pés, com avaliação individual feita com atenção.</p>
+            <a class="btn btn--solid card__btn" href="#contato" data-whatsapp data-msg="Olá, Luciana! Gostaria de saber mais sobre Tratamento de Micose.">Saiba mais</a>
+          </div>
+        </article>
+        <article class="card reveal" style="--d:90ms">
+          <div class="card__media">
+            <svg class="card__art" viewBox="0 0 400 260" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+              <defs>
+                <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e4f5f1"/><stop offset="1" stop-color="#7fd0c0"/></linearGradient>
+                <linearGradient id="h2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1f9e8a"/><stop offset="1" stop-color="#0a4a50"/></linearGradient>
+              </defs>
+              <rect width="400" height="260" fill="url(#g2)"/>
+              <circle cx="330" cy="40" r="90" fill="#fff" opacity=".35"/>
+              <circle cx="40" cy="240" r="110" fill="#fff" opacity=".3"/>
+              <path d="M90 170c0-30 30-48 70-50 50-2 70 8 110 8 36 0 50 14 50 34 0 22-30 34-80 34H140c-34 0-50-10-50-26Z" fill="url(#h2)"/><path d="M110 168c40-18 90-14 150-4 30 5 50 6 60 14" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".85"/><path d="M120 190c40 8 110 10 190-4" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".55"/><circle cx="160" cy="92" r="6" fill="#fff" opacity=".8"/><circle cx="200" cy="76" r="4" fill="#fff" opacity=".6"/>
+            </svg>
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Órtese</h3>
+            <p class="card__text">Acompanhamento para o uso de órteses, pensado de acordo com as necessidades de cada pessoa.</p>
+            <a class="btn btn--solid card__btn" href="#contato" data-whatsapp data-msg="Olá, Luciana! Gostaria de saber mais sobre Órtese.">Saiba mais</a>
+          </div>
+        </article>
+        <article class="card reveal" style="--d:180ms">
+          <div class="card__media">
+            <svg class="card__art" viewBox="0 0 400 260" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+              <defs>
+                <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e4f5f1"/><stop offset="1" stop-color="#7fd0c0"/></linearGradient>
+                <linearGradient id="h3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1f9e8a"/><stop offset="1" stop-color="#0a4a50"/></linearGradient>
+              </defs>
+              <rect width="400" height="260" fill="url(#g3)"/>
+              <circle cx="330" cy="40" r="90" fill="#fff" opacity=".35"/>
+              <circle cx="40" cy="240" r="110" fill="#fff" opacity=".3"/>
+              <g transform="translate(30 6)"><path d="M150 70c22-14 52-8 62 18 8 22 2 46 10 70 6 20 0 44-24 52-26 8-52-6-58-34-6-26 6-44 2-68-3-16 0-30 8-38Z" fill="url(#h3)" opacity=".92"/><g fill="url(#h3)" opacity=".92"><circle cx="232" cy="64" r="9"/><circle cx="250" cy="76" r="8"/><circle cx="264" cy="92" r="7"/><circle cx="212" cy="56" r="10"/></g></g><g fill="none" stroke="#fff" stroke-width="4" opacity=".85"><ellipse cx="205" cy="190" rx="34" ry="16"/><ellipse cx="205" cy="190" rx="20" ry="9"/></g><g fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".6"><path d="M290 130l24-16M296 158l32-4M290 186l24 16"/></g>
+            </svg>
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Calosidades Plantares</h3>
+            <p class="card__text">Cuidado especializado para calosidades nos pés, com técnica, delicadeza e atenção ao seu conforto.</p>
+            <a class="btn btn--solid card__btn" href="#contato" data-whatsapp data-msg="Olá, Luciana! Gostaria de saber mais sobre Calosidades Plantares.">Saiba mais</a>
+          </div>
+        </article>
+        <article class="card reveal" style="--d:270ms">
+          <div class="card__media">
+            <svg class="card__art" viewBox="0 0 400 260" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+              <defs>
+                <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e4f5f1"/><stop offset="1" stop-color="#7fd0c0"/></linearGradient>
+                <linearGradient id="h4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1f9e8a"/><stop offset="1" stop-color="#0a4a50"/></linearGradient>
+              </defs>
+              <rect width="400" height="260" fill="url(#g4)"/>
+              <circle cx="330" cy="40" r="90" fill="#fff" opacity=".35"/>
+              <circle cx="40" cy="240" r="110" fill="#fff" opacity=".3"/>
+              <g transform="translate(30 6)"><path d="M150 70c22-14 52-8 62 18 8 22 2 46 10 70 6 20 0 44-24 52-26 8-52-6-58-34-6-26 6-44 2-68-3-16 0-30 8-38Z" fill="url(#h4)" opacity=".92"/><g fill="url(#h4)" opacity=".92"><circle cx="232" cy="64" r="9"/><circle cx="250" cy="76" r="8"/><circle cx="264" cy="92" r="7"/><circle cx="212" cy="56" r="10"/></g></g><circle cx="205" cy="196" r="22" fill="#fff" opacity=".92"/><circle cx="205" cy="196" r="12" fill="#b6e5db"/><path d="M300 100v52M274 126h52" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity=".85"/>
+            </svg>
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Verrugas Plantares</h3>
+            <p class="card__text">Avaliação e atendimento cuidadoso para verrugas plantares, com orientação individualizada.</p>
+            <a class="btn btn--solid card__btn" href="#contato" data-whatsapp data-msg="Olá, Luciana! Gostaria de saber mais sobre Verrugas Plantares.">Saiba mais</a>
+          </div>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTATO E AGENDAMENTO ===== -->
+    <section class="contato" id="contato" aria-labelledby="contato-titulo">
+      <div class="container contato__grid">
+        <div class="contato__lead reveal">
+          <p class="eyebrow eyebrow--light">Contato e agendamento</p>
+          <h2 class="contato__title" id="contato-titulo">Seus pés merecem esse cuidado. <em>Agende seu atendimento!</em></h2>
+          <a class="btn btn--light btn--lg contato__cta" href="#contato" data-whatsapp><svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12.04 2a9.9 9.9 0 0 0-8.5 14.95L2 22l5.2-1.5A9.9 9.9 0 1 0 12.04 2Zm0 1.8a8.1 8.1 0 1 1-4.3 14.97l-.3-.19-3.08.89.9-3-.2-.31A8.1 8.1 0 0 1 12.04 3.8Zm-3.2 3.9c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.07 3.3 5.1 4.5 2.52 1 3.03.8 3.58.75.55-.05 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.43-.07-.12-.27-.2-.57-.35-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.68.15-.2.3-.77.97-.95 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5-.9-.8-1.5-1.78-1.67-2.08-.18-.3-.02-.47.13-.62.14-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.65-.93-2.25-.24-.57-.49-.5-.68-.5Z"/></svg> Agendar pelo WhatsApp</a>
+          <p class="contato__phone"><span class="contato__phone-ico"><svg class="ci__svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 4h3.5l1.6 4-2 1.3a11 11 0 0 0 5.6 5.6l1.3-2 4 1.6V18a2 2 0 0 1-2 2A15 15 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg></span> <a href="tel:+5511971585951">(11) 97158-5951</a></p>
+        </div>
+
+        <ul class="contato__list reveal" style="--d:140ms">
+          <li>
+            <a class="ci" href="#contato" data-whatsapp>
+              <span class="ci__icon ci__icon--wa"><svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12.04 2a9.9 9.9 0 0 0-8.5 14.95L2 22l5.2-1.5A9.9 9.9 0 1 0 12.04 2Zm0 1.8a8.1 8.1 0 1 1-4.3 14.97l-.3-.19-3.08.89.9-3-.2-.31A8.1 8.1 0 0 1 12.04 3.8Zm-3.2 3.9c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.07 3.3 5.1 4.5 2.52 1 3.03.8 3.58.75.55-.05 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.43-.07-.12-.27-.2-.57-.35-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.68.15-.2.3-.77.97-.95 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5-.9-.8-1.5-1.78-1.67-2.08-.18-.3-.02-.47.13-.62.14-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.65-.93-2.25-.24-.57-.49-.5-.68-.5Z"/></svg></span>
+              <span class="ci__text"><span class="ci__label">WhatsApp</span><span class="ci__value">(11) 97158-5951</span></span>
+              <svg class="ci__go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </li>
+          <li>
+            <a class="ci" href="https://www.instagram.com/podologadiniz/" target="_blank" rel="noopener noreferrer">
+              <span class="ci__icon"><svg class="ci__svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".7" fill="currentColor"/></svg></span>
+              <span class="ci__text"><span class="ci__label">Instagram</span><span class="ci__value">@podologadiniz</span></span>
+              <svg class="ci__go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </li>
+          <li>
+            <a class="ci" href="https://www.google.com/maps/search/?api=1&amp;query=Rua+Anchieta%2C+599%2C+Vila+Boaventura%2C+Jundia%C3%AD+-+SP" target="_blank" rel="noopener noreferrer">
+              <span class="ci__icon"><svg class="ci__svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11Z"/><circle cx="12" cy="10" r="2.4"/></svg></span>
+              <span class="ci__text"><span class="ci__label">Endereço</span><span class="ci__value">Rua Anchieta, 599, Casa<br>Vila Boaventura, Jundiaí&nbsp;-&nbsp;SP</span></span>
+              <svg class="ci__go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== RODAPÉ ===== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a class="footer__logo" href="#inicio" aria-label="Luciana Diniz — voltar ao início">
+          <img src="assets/logo-sm.png" srcset="assets/logo-sm.png 1x, assets/logo.png 2x" width="72" height="72" alt="" loading="lazy">
+        </a>
+        <p class="footer__name">Luciana Diniz</p>
+        <p class="footer__role">Podóloga &amp; Reflexoterapeuta</p>
+      </div>
+
+      <nav class="footer__col" aria-label="Navegação do rodapé">
+        <p class="footer__title">Navegação</p>
+        <ul class="footer__list">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#tratamentos">Tratamentos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__col">
+        <p class="footer__title">Contato</p>
+        <ul class="footer__list">
+          <li><a class="footer__item" href="#contato" data-whatsapp><svg class="f-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12.04 2a9.9 9.9 0 0 0-8.5 14.95L2 22l5.2-1.5A9.9 9.9 0 1 0 12.04 2Zm0 1.8a8.1 8.1 0 1 1-4.3 14.97l-.3-.19-3.08.89.9-3-.2-.31A8.1 8.1 0 0 1 12.04 3.8Zm-3.2 3.9c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.07 3.3 5.1 4.5 2.52 1 3.03.8 3.58.75.55-.05 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.43-.07-.12-.27-.2-.57-.35-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.68.15-.2.3-.77.97-.95 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5-.9-.8-1.5-1.78-1.67-2.08-.18-.3-.02-.47.13-.62.14-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.65-.93-2.25-.24-.57-.49-.5-.68-.5Z"/></svg><span>(11) 97158-5951</span></a></li>
+          <li><a class="footer__item" href="https://www.instagram.com/podologadiniz/" target="_blank" rel="noopener noreferrer"><svg class="f-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".7" fill="currentColor"/></svg><span>@podologadiniz</span></a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <p class="footer__title">Endereço</p>
+        <address class="footer__address">
+          <a class="footer__item" href="https://www.google.com/maps/search/?api=1&amp;query=Rua+Anchieta%2C+599%2C+Vila+Boaventura%2C+Jundia%C3%AD+-+SP" target="_blank" rel="noopener noreferrer"><svg class="f-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11Z"/><circle cx="12" cy="10" r="2.4"/></svg><span>Rua Anchieta, 599, Casa<br>Vila Boaventura<br>Jundiaí&nbsp;-&nbsp;SP</span></a>
+        </address>
+      </div>
+    </div>
+
+    <div class="footer__bar">
+      <div class="container footer__bar-inner">
+        <p>&copy; <span data-year>2026</span> Luciana Diniz. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
